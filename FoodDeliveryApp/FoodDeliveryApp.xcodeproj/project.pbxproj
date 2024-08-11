@@ -26,6 +26,8 @@
 		A2B890212C691F750094C7E3 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2B890142C691F750094C7E3 /* Roboto-Bold.ttf */; };
 		A2B890222C691F750094C7E3 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2B890152C691F750094C7E3 /* Roboto-Thin.ttf */; };
 		A2B890232C691F750094C7E3 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2B890162C691F750094C7E3 /* Roboto-Black.ttf */; };
+		A2B890252C692E790094C7E3 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B890242C692E790094C7E3 /* UIColor+Extension.swift */; };
+		A2B890272C69315F0094C7E3 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B890262C69315F0094C7E3 /* AppColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		A2B890142C691F750094C7E3 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		A2B890152C691F750094C7E3 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		A2B890162C691F750094C7E3 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		A2B890242C692E790094C7E3 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		A2B890262C69315F0094C7E3 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 			children = (
 				A27F76D22C682D0E001B4AD9 /* Extensions */,
 				A27F76CF2C682A23001B4AD9 /* Fonts */,
+				A2B890262C69315F0094C7E3 /* AppColor.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -114,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				A27F76D32C682D60001B4AD9 /* UIFont+Extension.swift */,
+				A2B890242C692E790094C7E3 /* UIColor+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -225,6 +231,8 @@
 				A27F76BB2C68211B001B4AD9 /* AppDelegate.swift in Sources */,
 				A27F76D42C682D60001B4AD9 /* UIFont+Extension.swift in Sources */,
 				A27F76BD2C68211B001B4AD9 /* SceneDelegate.swift in Sources */,
+				A2B890252C692E790094C7E3 /* UIColor+Extension.swift in Sources */,
+				A2B890272C69315F0094C7E3 /* AppColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
