@@ -38,3 +38,37 @@ extension CoordinatorProtocol {
 protocol CoordinatorFinishDelegate: AnyObject {
     func condinatorDidFinish(childCoordinatoro: CoordinatorProtocol)
 }
+
+protocol TabCarCoordinator: AnyObject, CoordinatorProtocol {
+    var tabBarController: UITabBarController? {get set}
+}
+
+class Cordinator: CoordinatorProtocol {
+    var childCordinators: [CoordinatorProtocol]
+    var type: CoordinatorType
+    var navigationController: UINavigationController?
+    var finishDelegate: CoordinatorFinishDelegate?
+    
+    init(childCordinators: [CoordinatorProtocol] = [CoordinatorProtocol](), type: CoordinatorType, navigationController: UINavigationController, finishDelegate: CoordinatorFinishDelegate? = nil) {
+        self.childCordinators = childCordinators
+        self.type = type
+        self.navigationController = navigationController
+        self.finishDelegate = finishDelegate
+    }
+    
+    deinit {
+        print("Coordinator deinited \(type)")
+        childCordinators.forEach{ $0.finishDelegate = nil }
+        childCordinators.removeAll()
+    }
+    
+    func start() {
+        print("Coordinator start")
+    }
+    
+    func finish() {
+        print("Cordinator finish")
+    }
+    
+    
+}

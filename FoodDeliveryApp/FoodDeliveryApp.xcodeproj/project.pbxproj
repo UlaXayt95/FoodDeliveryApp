@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A27EB3002C6C2F4E0050691D /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27EB2FF2C6C2F4E0050691D /* AppCoordinator.swift */; };
+		A27EB3022C6C31400050691D /* OnbordingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27EB3012C6C31400050691D /* OnbordingCoordinator.swift */; };
 		A27F76BB2C68211B001B4AD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27F76BA2C68211B001B4AD9 /* AppDelegate.swift */; };
 		A27F76BD2C68211B001B4AD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27F76BC2C68211B001B4AD9 /* SceneDelegate.swift */; };
 		A27F76BF2C68211B001B4AD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27F76BE2C68211B001B4AD9 /* ViewController.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A27EB2FF2C6C2F4E0050691D /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		A27EB3012C6C31400050691D /* OnbordingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbordingCoordinator.swift; sourceTree = "<group>"; };
 		A27F76B72C68211B001B4AD9 /* FoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27F76BA2C68211B001B4AD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A27F76BC2C68211B001B4AD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -167,6 +171,8 @@
 			isa = PBXGroup;
 			children = (
 				A2D1DA642C69607A00CAA3ED /* Cordinator.swift */,
+				A27EB2FF2C6C2F4E0050691D /* AppCoordinator.swift */,
+				A27EB3012C6C31400050691D /* OnbordingCoordinator.swift */,
 			);
 			path = Cordination;
 			sourceTree = "<group>";
@@ -258,8 +264,10 @@
 				A27F76BF2C68211B001B4AD9 /* ViewController.swift in Sources */,
 				A27F76BB2C68211B001B4AD9 /* AppDelegate.swift in Sources */,
 				A27F76D42C682D60001B4AD9 /* UIFont+Extension.swift in Sources */,
+				A27EB3002C6C2F4E0050691D /* AppCoordinator.swift in Sources */,
 				A27F76BD2C68211B001B4AD9 /* SceneDelegate.swift in Sources */,
 				A2B890252C692E790094C7E3 /* UIColor+Extension.swift in Sources */,
+				A27EB3022C6C31400050691D /* OnbordingCoordinator.swift in Sources */,
 				A2B890272C69315F0094C7E3 /* AppColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
