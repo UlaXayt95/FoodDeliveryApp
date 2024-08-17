@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2486B4C2C701CE4000EA9FB /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2486B4B2C701CE4000EA9FB /* HomeCoordinator.swift */; };
+		A2486B4E2C701D41000EA9FB /* OrderCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2486B4D2C701D41000EA9FB /* OrderCoordinator.swift */; };
+		A2486B502C701DBE000EA9FB /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2486B4F2C701DBE000EA9FB /* ProfileCoordinator.swift */; };
+		A2486B522C701E10000EA9FB /* ListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2486B512C701E10000EA9FB /* ListCoordinator.swift */; };
+		A2486B542C701E71000EA9FB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2486B532C701E71000EA9FB /* TabBarController.swift */; };
+		A27EB3002C6C2F4E0050691D /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27EB2FF2C6C2F4E0050691D /* AppCoordinator.swift */; };
+		A27EB3022C6C31400050691D /* OnbordingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27EB3012C6C31400050691D /* OnbordingCoordinator.swift */; };
 		A27F76BB2C68211B001B4AD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27F76BA2C68211B001B4AD9 /* AppDelegate.swift */; };
 		A27F76BD2C68211B001B4AD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27F76BC2C68211B001B4AD9 /* SceneDelegate.swift */; };
 		A27F76BF2C68211B001B4AD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27F76BE2C68211B001B4AD9 /* ViewController.swift */; };
@@ -28,9 +35,17 @@
 		A2B890232C691F750094C7E3 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2B890162C691F750094C7E3 /* Roboto-Black.ttf */; };
 		A2B890252C692E790094C7E3 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B890242C692E790094C7E3 /* UIColor+Extension.swift */; };
 		A2B890272C69315F0094C7E3 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B890262C69315F0094C7E3 /* AppColor.swift */; };
+		A2D1DA652C69607A00CAA3ED /* Cordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1DA642C69607A00CAA3ED /* Cordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2486B4B2C701CE4000EA9FB /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		A2486B4D2C701D41000EA9FB /* OrderCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCoordinator.swift; sourceTree = "<group>"; };
+		A2486B4F2C701DBE000EA9FB /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		A2486B512C701E10000EA9FB /* ListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoordinator.swift; sourceTree = "<group>"; };
+		A2486B532C701E71000EA9FB /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		A27EB2FF2C6C2F4E0050691D /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		A27EB3012C6C31400050691D /* OnbordingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbordingCoordinator.swift; sourceTree = "<group>"; };
 		A27F76B72C68211B001B4AD9 /* FoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27F76BA2C68211B001B4AD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A27F76BC2C68211B001B4AD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +69,7 @@
 		A2B890162C691F750094C7E3 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 		A2B890242C692E790094C7E3 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		A2B890262C69315F0094C7E3 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		A2D1DA642C69607A00CAA3ED /* Cordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +86,7 @@
 		A27F76AE2C68211B001B4AD9 = {
 			isa = PBXGroup;
 			children = (
+				A2D1DA612C695FB400CAA3ED /* NavigationLayer */,
 				A27F76CE2C6829FA001B4AD9 /* Resources */,
 				A27F76B92C68211B001B4AD9 /* FoodDeliveryApp */,
 				A27F76B82C68211B001B4AD9 /* Products */,
@@ -142,6 +159,37 @@
 				A2B890162C691F750094C7E3 /* Roboto-Black.ttf */,
 			);
 			path = Roboto;
+			sourceTree = "<group>";
+		};
+		A2D1DA612C695FB400CAA3ED /* NavigationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A2D1DA632C69600900CAA3ED /* Cordination */,
+				A2D1DA622C695FEF00CAA3ED /* Controllers */,
+			);
+			path = NavigationLayer;
+			sourceTree = "<group>";
+		};
+		A2D1DA622C695FEF00CAA3ED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A2486B532C701E71000EA9FB /* TabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A2D1DA632C69600900CAA3ED /* Cordination */ = {
+			isa = PBXGroup;
+			children = (
+				A2D1DA642C69607A00CAA3ED /* Cordinator.swift */,
+				A27EB2FF2C6C2F4E0050691D /* AppCoordinator.swift */,
+				A27EB3012C6C31400050691D /* OnbordingCoordinator.swift */,
+				A2486B4B2C701CE4000EA9FB /* HomeCoordinator.swift */,
+				A2486B4D2C701D41000EA9FB /* OrderCoordinator.swift */,
+				A2486B4F2C701DBE000EA9FB /* ProfileCoordinator.swift */,
+				A2486B512C701E10000EA9FB /* ListCoordinator.swift */,
+			);
+			path = Cordination;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,11 +275,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D1DA652C69607A00CAA3ED /* Cordinator.swift in Sources */,
 				A27F76BF2C68211B001B4AD9 /* ViewController.swift in Sources */,
 				A27F76BB2C68211B001B4AD9 /* AppDelegate.swift in Sources */,
+				A2486B522C701E10000EA9FB /* ListCoordinator.swift in Sources */,
 				A27F76D42C682D60001B4AD9 /* UIFont+Extension.swift in Sources */,
+				A2486B502C701DBE000EA9FB /* ProfileCoordinator.swift in Sources */,
+				A27EB3002C6C2F4E0050691D /* AppCoordinator.swift in Sources */,
 				A27F76BD2C68211B001B4AD9 /* SceneDelegate.swift in Sources */,
+				A2486B4E2C701D41000EA9FB /* OrderCoordinator.swift in Sources */,
 				A2B890252C692E790094C7E3 /* UIColor+Extension.swift in Sources */,
+				A2486B4C2C701CE4000EA9FB /* HomeCoordinator.swift in Sources */,
+				A2486B542C701E71000EA9FB /* TabBarController.swift in Sources */,
+				A27EB3022C6C31400050691D /* OnbordingCoordinator.swift in Sources */,
 				A2B890272C69315F0094C7E3 /* AppColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
