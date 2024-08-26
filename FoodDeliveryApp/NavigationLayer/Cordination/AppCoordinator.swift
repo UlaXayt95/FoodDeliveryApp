@@ -12,8 +12,8 @@ class AppCoordinator: Cordinator {
     
     
     override func start() {
-        //showOnbordingFlow()
-        showMainFlow()
+        showOnbordingFlow()
+        //showMainFlow()
     }
     override func finish() {
         print("AppCordinator finish")
