@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A245ACDD2C7D3892002E6D5D /* OnboardingPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A245ACDC2C7D3892002E6D5D /* OnboardingPartViewController.swift */; };
 		A2486B4C2C701CE4000EA9FB /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2486B4B2C701CE4000EA9FB /* HomeCoordinator.swift */; };
 		A2486B4E2C701D41000EA9FB /* OrderCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2486B4D2C701D41000EA9FB /* OrderCoordinator.swift */; };
 		A2486B502C701DBE000EA9FB /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2486B4F2C701DBE000EA9FB /* ProfileCoordinator.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A245ACDC2C7D3892002E6D5D /* OnboardingPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPartViewController.swift; sourceTree = "<group>"; };
 		A2486B4B2C701CE4000EA9FB /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		A2486B4D2C701D41000EA9FB /* OrderCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCoordinator.swift; sourceTree = "<group>"; };
 		A2486B4F2C701DBE000EA9FB /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			children = (
 				A2486B572C72AE81000EA9FB /* OnbordingViewController.swift */,
 				A2486B592C72AECD000EA9FB /* OnboardingViewPresenter.swift */,
+				A245ACDC2C7D3892002E6D5D /* OnboardingPartViewController.swift */,
 			);
 			path = Onbording;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				A2B890252C692E790094C7E3 /* UIColor+Extension.swift in Sources */,
 				A2486B4C2C701CE4000EA9FB /* HomeCoordinator.swift in Sources */,
 				A2486B542C701E71000EA9FB /* TabBarController.swift in Sources */,
+				A245ACDD2C7D3892002E6D5D /* OnboardingPartViewController.swift in Sources */,
 				A27EB3022C6C31400050691D /* OnbordingCoordinator.swift in Sources */,
 				A2486B5A2C72AECD000EA9FB /* OnboardingViewPresenter.swift in Sources */,
 				A2B890272C69315F0094C7E3 /* AppColor.swift in Sources */,

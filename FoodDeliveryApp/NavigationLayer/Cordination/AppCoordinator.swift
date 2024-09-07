@@ -34,7 +34,7 @@ private extension AppCoordinator {
         guard let navigationController = navigationController else {return}
         
         let homeNavigationController = UINavigationController()
-        let homeCoordinator = HomeCordinator(type: .home, navigationController: homeNavigationController)
+        let homeCoordinator = HomeCordinator(type: .home , navigationController: homeNavigationController)
         homeNavigationController.tabBarItem = UITabBarItem(title: "Home", image: UIImage.init(systemName: "star"), tag: 0)
         homeCoordinator.finishDelegate = self
         homeCoordinator.start()
@@ -62,8 +62,7 @@ private extension AppCoordinator {
         addChildCoordinator(profileCoordinator)
         addChildCoordinator(homeCoordinator)
         
-        let tabBarControllers = [orderNavigationController, listNavigationController,
-                                 homeNavigationController, profileNavigationController
+        let tabBarControllers = [homeNavigationController, orderNavigationController, listNavigationController, profileNavigationController
         ]
         let tabBarController = TabBarController(tabBarControllers: tabBarControllers)
         navigationController.pushViewController(tabBarController, animated: true)
