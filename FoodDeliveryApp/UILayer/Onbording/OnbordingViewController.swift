@@ -13,13 +13,14 @@ class OnbordingViewController: UIViewController {
     // MARK: -Properties
     
     private var pages = [OnboardingPartViewController]()
+    private var currentPageIndex = 0
     
     
     // MARK: -Views
     private let pageViewController = UIPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal)
     private let pageControl = UIPageControl()
     private let bottomButton = UIButton()
-    weak var viewOutput: OnboardingViewOutput!
+    var viewOutput: OnboardingViewOutput!
     
     init(pages: [OnboardingPartViewController] = [OnboardingPartViewController](), viewOutput: OnboardingViewOutput!) {
         self.pages = pages
@@ -55,6 +56,7 @@ private extension OnbordingViewController {
             bottomButton.setTitle(pages[3].buttonText, for: .normal)
         case 3:
             print("Exit")
+            viewOutput.onoardingFinish()
         default:
             break
         }
@@ -107,7 +109,7 @@ private extension OnbordingViewController {
         bottomButton.backgroundColor = AppColor.grey
         bottomButton.titleLabel?.font = .Roboto.Bold.size(of: 18)
         bottomButton.setTitleColor(AppColor.black, for: .normal)
-        bottomButton.layer.cornerRadius = 16
+        bottomButton.layer.cornerRadius = 24
         bottomButton.addTarget(self, action: #selector(buttonPressed), for: .touchUpInside)
         
         NSLayoutConstraint.activate([
@@ -144,12 +146,18 @@ extension OnbordingViewController: UIPageViewControllerDataSource {
 extension OnbordingViewController: UIPageViewControllerDelegate {
     
     func pageViewController(_ pageViewController: UIPageViewController, willTransitionTo pendingViewControllers: [UIViewController]) {
-        if let index = pages.firstIndex(of: pendingViewControllers.first! as! OnboardingPartViewController) {
-            pageControl.currentPage = index
-            let page = pages[index]
+        if let index = pages.firstIndex(of: pendingViewControllers.first! as!
+            OnboardingPartViewController) {
+            currentPageIndex = index
+        }
+    }
+    
+    func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
+        if completed {
+            pageControl.currentPage = currentPageIndex
+            let page = pages[currentPageIndex]
             let title = page.buttonText
             bottomButton.setTitle(title, for: .normal)
-            
         }
     }
     
