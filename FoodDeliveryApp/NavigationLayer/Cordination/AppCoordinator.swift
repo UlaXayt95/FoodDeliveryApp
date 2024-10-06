@@ -18,9 +18,11 @@ class AppCoordinator: Cordinator {
         UserDefaults.standard.removeObject(forKey: "passedOnboarding")
         if userStorage.passedOnboarding{
             showMainFlow()
-        } else {
-            showOnbordingFlow()
-        }
+       } else {
+        showOnbordingFlow()
+      }
+//        let loginVC = LoginViewController()
+//        navigationController?.pushViewController(loginVC, animated: true)
     }
     override func finish() {
         print("AppCordinator finish")

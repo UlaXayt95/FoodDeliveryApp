@@ -24,6 +24,7 @@
 		A27F76C42C68211C001B4AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27F76C32C68211C001B4AD9 /* Assets.xcassets */; };
 		A27F76C72C68211C001B4AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27F76C52C68211C001B4AD9 /* LaunchScreen.storyboard */; };
 		A27F76D42C682D60001B4AD9 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27F76D32C682D60001B4AD9 /* UIFont+Extension.swift */; };
+		A27FC1CD2CB20F6A007B2244 /* FDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27FC1CC2CB20F6A007B2244 /* FDButton.swift */; };
 		A2A1BAC22C8D156F002C5116 /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A1BAC12C8D156F002C5116 /* UserStorage.swift */; };
 		A2B890172C691F750094C7E3 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2B8900A2C691F750094C7E3 /* Roboto-Medium.ttf */; };
 		A2B890182C691F750094C7E3 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2B8900B2C691F750094C7E3 /* Roboto-Light.ttf */; };
@@ -40,6 +41,8 @@
 		A2B890232C691F750094C7E3 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2B890162C691F750094C7E3 /* Roboto-Black.ttf */; };
 		A2B890252C692E790094C7E3 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B890242C692E790094C7E3 /* UIColor+Extension.swift */; };
 		A2B890272C69315F0094C7E3 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B890262C69315F0094C7E3 /* AppColor.swift */; };
+		A2BFBD052C98F5C800E20C20 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BFBD042C98F5C800E20C20 /* LoginViewController.swift */; };
+		A2BFBD0A2C98F6B800E20C20 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BFBD092C98F6B800E20C20 /* BottomView.swift */; };
 		A2D1DA652C69607A00CAA3ED /* Cordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1DA642C69607A00CAA3ED /* Cordinator.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +66,7 @@
 		A27F76C62C68211C001B4AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A27F76C82C68211C001B4AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A27F76D32C682D60001B4AD9 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		A27FC1CC2CB20F6A007B2244 /* FDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDButton.swift; sourceTree = "<group>"; };
 		A2A1BAC12C8D156F002C5116 /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
 		A2B8900A2C691F750094C7E3 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		A2B8900B2C691F750094C7E3 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 		A2B890162C691F750094C7E3 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 		A2B890242C692E790094C7E3 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		A2B890262C69315F0094C7E3 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		A2BFBD042C98F5C800E20C20 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A2BFBD092C98F6B800E20C20 /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
 		A2D1DA642C69607A00CAA3ED /* Cordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,7 +110,9 @@
 		A2486B552C72ADFC000EA9FB /* UILayer */ = {
 			isa = PBXGroup;
 			children = (
-				A226619C2C8FD2A100C6D901 /* SceneFactory */,
+				A27FC1CB2CB20EF0007B2244 /* Scene */,
+				A27FC1CA2CB20EAE007B2244 /* Factory */,
+				A27FC1C92CB20EA1007B2244 /* Views */,
 				A2486B562C72AE3D000EA9FB /* Onbording */,
 			);
 			path = UILayer;
@@ -180,6 +188,31 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		A27FC1C92CB20EA1007B2244 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A27FC1CC2CB20F6A007B2244 /* FDButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A27FC1CA2CB20EAE007B2244 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				A226619C2C8FD2A100C6D901 /* SceneFactory */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		A27FC1CB2CB20EF0007B2244 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				A2BFBD022C98F57100E20C20 /* OnboardingScene */,
+				A2BFBD032C98F58600E20C20 /* AuthScene */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
 		A2A1BAC02C8D1532002C5116 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +239,46 @@
 				A2B890162C691F750094C7E3 /* Roboto-Black.ttf */,
 			);
 			path = Roboto;
+			sourceTree = "<group>";
+		};
+		A2BFBD022C98F57100E20C20 /* OnboardingScene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OnboardingScene;
+			sourceTree = "<group>";
+		};
+		A2BFBD032C98F58600E20C20 /* AuthScene */ = {
+			isa = PBXGroup;
+			children = (
+				A2BFBD082C98F67200E20C20 /* Presenters */,
+				A2BFBD072C98F66000E20C20 /* Controllers */,
+				A2BFBD062C98F65700E20C20 /* Views */,
+			);
+			path = AuthScene;
+			sourceTree = "<group>";
+		};
+		A2BFBD062C98F65700E20C20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2BFBD092C98F6B800E20C20 /* BottomView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A2BFBD072C98F66000E20C20 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A2BFBD042C98F5C800E20C20 /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A2BFBD082C98F67200E20C20 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
 			sourceTree = "<group>";
 		};
 		A2D1DA612C695FB400CAA3ED /* NavigationLayer */ = {
@@ -330,6 +403,7 @@
 				A27F76D42C682D60001B4AD9 /* UIFont+Extension.swift in Sources */,
 				A2486B502C701DBE000EA9FB /* ProfileCoordinator.swift in Sources */,
 				A27EB3002C6C2F4E0050691D /* AppCoordinator.swift in Sources */,
+				A2BFBD052C98F5C800E20C20 /* LoginViewController.swift in Sources */,
 				A27F76BD2C68211B001B4AD9 /* SceneDelegate.swift in Sources */,
 				A2486B4E2C701D41000EA9FB /* OrderCoordinator.swift in Sources */,
 				A2B890252C692E790094C7E3 /* UIColor+Extension.swift in Sources */,
@@ -339,6 +413,8 @@
 				A2A1BAC22C8D156F002C5116 /* UserStorage.swift in Sources */,
 				A226619E2C8FD2CB00C6D901 /* SceneFactory.swift in Sources */,
 				A27EB3022C6C31400050691D /* OnbordingCoordinator.swift in Sources */,
+				A2BFBD0A2C98F6B800E20C20 /* BottomView.swift in Sources */,
+				A27FC1CD2CB20F6A007B2244 /* FDButton.swift in Sources */,
 				A2486B5A2C72AECD000EA9FB /* OnboardingViewPresenter.swift in Sources */,
 				A2B890272C69315F0094C7E3 /* AppColor.swift in Sources */,
 			);
